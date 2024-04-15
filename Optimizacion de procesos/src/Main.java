@@ -10,7 +10,7 @@ import java.util.*;
 
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
-            // Optimización 1: Selección del pivote como mediana de tres elementos
+
             int pivot = medianOfThree(arr, low, high);
             int pi = partition(arr, low, high, pivot);
             quickSort(arr, low, pi - 1);
@@ -20,7 +20,7 @@ import java.util.*;
 
     public static int partition(int[] arr, int low, int high, int pivot) {
         int pivotValue = arr[pivot];
-        swap(arr, pivot, high); // Mover el pivote al final
+        swap(arr, pivot, high);
         int i = low;
         for (int j = low; j < high; j++) {
             if (arr[j] < pivotValue) {
@@ -28,7 +28,7 @@ import java.util.*;
                 i++;
             }
         }
-        swap(arr, i, high); // Mover el pivote de nuevo a su posición correcta
+        swap(arr, i, high);
         return i;
     }
 
