@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Analisis genomico/Analisis genomico.iml" filepath="$PROJECT_DIR$/Analisis genomico/Analisis genomico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Caso-final-integrador-5.iml" filepath="$PROJECT_DIR$/.idea/Caso-final-integrador-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Herramientas de analisis numerico/Herramientas de analisis numerico.iml" filepath="$PROJECT_DIR$/Herramientas de analisis numerico/Herramientas de analisis numerico.iml" />
+    </modules>
+  </component>
+</project>
